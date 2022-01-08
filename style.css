@@ -1,0 +1,84 @@
+*{
+    margin: 1;
+}
+.header{
+    width: 100%;
+    height:80px;
+    border:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    box-sizing:border-box;
+    background-color:black;
+    background-size:cover;
+    border-style: double;
+    border-color: red;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.quienes-somos{
+    display: inline-block;
+    justify-content:baseline;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    padding-right: 100px;
+    font-size:1.5em;
+    color: rgb(253, 137, 238);
+    font-family:'Times New Roman', Times, serif;
+    border-style:hidden;
+    border-color: red;
+}
+.quienes-somos:hover{
+    border-inline-start-style: groove;
+    color: rgb(233, 225, 225);
+    border-radius: 20px;
+}
+.nuestros-servicios{
+    display: inline-block;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    padding-right: 150px;
+    font-size:1.5em;
+    color: rgb(253, 137, 238);
+    font-family:'Times New Roman', Times, serif;
+    border-style:hidden;
+    border-color: red;
+}
+.nuestros-servicios:hover{
+    border-inline-start-style: groove;
+    color: rgb(233, 225, 225);
+    border-radius: 20px;
+}
+.nuestras-promociones{
+    display: inline-block;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    padding-right: 150px;
+    font-size:1.5em;
+    color: rgb(253, 137, 238);
+    font-family:'Times New Roman', Times, serif;
+    border-style:hidden;
+    border-color: red;
+}
+.nuestras-promociones:hover{
+    border-inline-start-style: groove;
+    color: rgb(233, 225, 225);
+    border-radius: 20px;
+}
+.contactanos{
+    display: inline-block;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    padding-right: 100px;
+    font-size:1.5em;
+    color: rgb(15, 4, 14);
+    font-family:'Times New Roman', Times, serif;
+    border-style:hidden;
+    border-color: red;
+}
+.contactanos:hover{
+    border-inline-start-style: groove;
+    color: rgb(233, 225, 225);
+    border-radius: 20px;
+}
